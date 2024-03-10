@@ -1,0 +1,30 @@
+<!-- <div>
+  <h1>User Management App</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="/list">User List</a></li>
+      <li><a routerLink="/upsert">Add/Edit User</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div>
+  <router-outlet></router-outlet>
+</div> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/upsert">Add/Edit User</a>
+      </li>
+      <li class="nav-item">
+     
+        <a class="nav-link" routerLink="/list">List</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+<div>
+  <router-outlet></router-outlet>
+</div>
