@@ -4,9 +4,17 @@
       "id": 1,
       "firstName": "Avinash",
       "lastName": "sawant",
-      "address": "",
+      "address": "Pandharpur",
       "email": "atsawant28@gmail.com",
-      "phone": "0970280059"
+      "phone": "9970280059"
+    },
+    {
+      "id": 2,
+      "firstName": "Akshaykumar",
+      "lastName": "sawant",
+      "address": "pune",
+      "email": "atsawant28@gmail.com",
+      "phone": "1234567890"
     }
   ]
 }
